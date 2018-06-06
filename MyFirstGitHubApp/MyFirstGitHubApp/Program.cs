@@ -4,9 +4,14 @@ namespace MyFirstGitHubApp
 {
     class Program
     {
+        static void auxMeth()
+        {
+            Console.WriteLine("writing something");
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            auxMeth();
+            Console.ReadLine();
         }
     }
 }
